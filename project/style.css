@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body,html{
+    width: 100%;
+    height: 120%;
+    background-color: white;
+    
+}
+.mainclass{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12,1fr) ;
+    grid-template-rows: repeat(12,1fr);
+}
+
+
+.area-1{
+    grid-row: 1/-1;
+    grid-column: 1/7;
+    background-color: white;
+}
+.area-2{
+    grid-row: 1/-1;
+    grid-column: 7/-1;
+    background-color: whitesmoke;
+}
+header{
+    height: 7%;
+    width: 100%;
+}
+.heading{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+main{
+    height: 93%;
+    width: 100%;
+}
+.resume{
+    width: 98%;
+    height: 98%;
+    background-color: wheat;
+    margin: 1%;
+    display: flex;
+}
+.half1{
+    width: 40%;
+    height: 100%;
+}
+.half2{
+    height: 100%;
+    width: 57%;
+    margin-left:3% ;
+}
+.intro{
+    width: 100%;
+    height: 20%;
+    
+}
+.aboutme{
+    width: 100%;
+    height: 20%;
+    
+}
+.contact{
+    width: 100%;
+    height: 25%;
+
+}
+.skills{
+    width: 100%;
+    height: 35%;
+    
+}
+.image{
+    width: 100%;
+    height: 25%;
+    
+}
+.education{
+    width: 100%;
+    height: 20%;
+    
+}
+.experience{
+    width: 100%;
+    height: 30%;
+}
+.interests{
+    width: 100%;
+    height: 25%;
+}
+.subheading1{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(124, 124, 9);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.subheading2{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(116, 116, 14);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.subheading1 h2{
+    color: whitesmoke;
+    padding: 5px;
+    text-align: end;
+}
+.subheading2 h2{
+    color: whitesmoke;
+    padding: 5px;
+}
